@@ -1,0 +1,24 @@
+{
+  "assignment_locks": {
+    "T1": "u1",
+    "T2-1": "u2",
+    "T2-2": "u1",
+    "T3-1": "u1",
+    "T3-2": "u2"
+  },
+  "date_locks": {
+    "T1": {
+      "end_before": "2025-10-26T23:59:59+05:30"
+    },
+    "T5": {
+      "start_after": "2025-10-23T09:00:00+05:30"
+    }
+  },
+  "theta": {
+    "skill_fit": 0.5,
+    "fairness": 0.2,
+    "continuity": 0.2,
+    "deadline_risk": 0.1
+  },
+  "horizon_weeks": 4
+}

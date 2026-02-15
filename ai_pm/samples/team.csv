@@ -1,0 +1,3 @@
+member_id,name,role,seniority_level,weekly_capacity_hours,current_load_hours,timezone,skills
+u1,Aarav,Backend,3,40,8,Asia/Kolkata,"[{""name"": ""python"", ""level"": 4}, {""name"": ""sql"", ""level"": 3}, {""name"": ""backend"", ""level"": 4}, {""name"": ""git"", ""level"": 1}]"
+u2,Mia,Frontend,2,32,4,Asia/Kolkata,"[{""name"": ""react"", ""level"": 3}, {""name"": ""frontend"", ""level"": 3}]"

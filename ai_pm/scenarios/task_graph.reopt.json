@@ -1,0 +1,71 @@
+{
+  "tasks": [
+    {
+      "task_id": "T1",
+      "title": "Set up repo",
+      "estimate_h": 4.0,
+      "required_skills": [
+        { "name": "git" },
+        { "name": "python", "level": 3 }
+      ],
+      "dependencies": [],
+      "due_by": "2025-10-25"
+    },
+    {
+      "task_id": "T2-1",
+      "title": "Implement Auth — react",
+      "estimate_h": 4.0,
+      "required_skills": [ { "name": "react" } ],
+      "dependencies": ["T1"],
+      "due_by": "2025-10-28"
+    },
+    {
+      "task_id": "T2-2",
+      "title": "Implement Auth — python",
+      "estimate_h": 4.0,
+      "required_skills": [ { "name": "python" } ],
+      "dependencies": ["T1"],
+      "due_by": "2025-10-28"
+    },
+    {
+      "task_id": "T3-1",
+      "title": "Data ingest & preview — python",
+      "estimate_h": 6.0,
+      "required_skills": [ { "name": "python" } ],
+      "dependencies": ["T1"],
+      "due_by": "2025-11-01"
+    },
+    {
+      "task_id": "T3-2",
+      "title": "Data ingest & preview — react",
+      "estimate_h": 6.0,
+      "required_skills": [ { "name": "react" } ],
+      "dependencies": ["T1"],
+      "due_by": "2025-11-01"
+    },
+    {
+      "task_id": "T4-1",
+      "title": "Charts dashboard — react",
+      "estimate_h": 8.0,
+      "required_skills": [ { "name": "react" } ],
+      "dependencies": ["T3-1","T3-2"],
+      "due_by": "2025-11-04"
+    },
+    {
+      "task_id": "T4-2",
+      "title": "Charts dashboard — python",
+      "estimate_h": 8.0,
+      "required_skills": [ { "name": "python" } ],
+      "dependencies": ["T3-1","T3-2"],
+      "due_by": "2025-11-04"
+    },
+    {
+      "task_id": "T5",
+      "title": "Daily email summary job",
+      "estimate_h": 8.0,
+      "required_skills": [ { "name": "python" } ],
+      "dependencies": ["T3-1","T3-2"],
+      "due_by": "2025-11-07"
+    }
+  ]
+}

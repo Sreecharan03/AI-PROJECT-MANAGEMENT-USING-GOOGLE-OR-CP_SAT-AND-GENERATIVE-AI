@@ -1,0 +1,4 @@
+timezone: "Asia/Kolkata"
+workweek: ["Mon","Tue","Wed","Thu","Fri"]
+workday_hours: 8
+data_dir: "runs"

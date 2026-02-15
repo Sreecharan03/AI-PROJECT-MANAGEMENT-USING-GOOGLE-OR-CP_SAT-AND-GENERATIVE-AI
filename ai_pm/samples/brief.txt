@@ -1,0 +1,5 @@
+Build a minimal internal dashboard:
+- User login
+- Ingest CSVs and show charts
+- Daily email summary
+Only roles (no names): frontend dev, backend dev, QA.

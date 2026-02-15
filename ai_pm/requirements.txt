@@ -1,0 +1,8 @@
+streamlit>=1.38
+pydantic>=2.8
+ortools>=9.10
+python-dotenv>=1.0
+requests>=2.32
+pyyaml>=6.0
+reportlab>=4.2
+groq>=0.13

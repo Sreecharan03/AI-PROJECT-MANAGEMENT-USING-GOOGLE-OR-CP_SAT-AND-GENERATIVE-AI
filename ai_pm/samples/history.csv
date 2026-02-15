@@ -1,0 +1,3 @@
+task_id,member_id,outcome,review_score,cycle_time_hrs
+T-001,u1,success,4.5,12.0
+T-002,u2,partial,3.0,16.5

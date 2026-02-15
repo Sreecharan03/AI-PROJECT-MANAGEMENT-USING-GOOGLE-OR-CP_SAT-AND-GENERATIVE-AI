@@ -1,0 +1,6 @@
+canonical_skill,synonyms
+backend,"[""backend dev"", ""backend engineer""]"
+frontend,"[""frontend dev"", ""frontend engineer""]"
+git,[]
+python,"[""backend"", ""backend dev"", ""cpython"", ""py"", ""python3""]"
+react,"[""frontend"", ""frontend dev"", ""react.js"", ""reactjs""]"
